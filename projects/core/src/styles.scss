@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+// Temp Styles
+body {
+  background-color: #dfc7a6;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.building-mawo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+
+  .title {
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+}
